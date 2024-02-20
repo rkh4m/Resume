@@ -82,7 +82,6 @@
     \end{tabular*}\vspace{-5pt}
 }
 
-
 \newcommand{\resumeProjectHeading}[2]{
     \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
@@ -153,9 +152,9 @@
   \vspace{2pt}
   \resumeSubHeadingListStart
     \small{\item{
-        \textbf{Languages:}{ Java, Python, JavaScript, CSS, HTML, LaTeX, MatLab, C/C++ (familiar) } \\ \vspace{3pt}
+        \textbf{Languages:}{ Java, JavaScript, Python, CSS, HTML, LaTeX, C/C++, SQL, MatLab } \\ \vspace{3pt}
                 
-        \textbf{Tech Stacks/Concepts:}{ React, React Native, Expo Go, Xbee, XCTU, Data Structures } \\ \vspace{3pt}
+        \textbf{Tech Stacks:}{ React, React Native, Expo Go, Git, Axios, Express, NodeJS,, PostgreSQL, XCTU } \\ \vspace{3pt}
     }}
   \resumeSubHeadingListEnd
 
@@ -166,7 +165,7 @@
     \resumeSubHeadingListStart
 	
 	%---------------------- HackViolet ------------------------
-		\resumeProjectHeading
+	\resumeProjectHeading
 	{\textbf{HackViolet 2024 WINNER: Baby Blues}}{}
 	  \resumeItemListStart
 		\resumeItem{Constructed the `Best Hack (app) to Support Women' that implements \textbf{Hume AI API} to quantify emotions based on speech (on a confidence scale of \textbf{0.0 - 1.0}) in tandem with \textbf{Spotify's API} to recommend playlists as part of music therapy for women suffering postpartum depression.}
@@ -185,25 +184,25 @@
 	\resumeProjectHeading
          {\textbf{BOLT: Wireless Communications}}{}
           \resumeItemListStart
-	    \resumeItem{Established the structure required to monitor the motorcycle's status through the development of the receive functionality of the \textbf{XBee} transmitters that converts hexadecimal information of \textbf{8 to 16 bytes} into formatted \textbf{ASCII}.}
-	    \resumeItem{Worked in collaboration with the \textbf{CAN Testbench team}, which gathered the data from the motorcycle, as we successfully sent and recieved information.}
+	    \resumeItem{Established the functionality to wirelessly transfer \textbf{64 - 128 bytes} of encrypted data every \textbf{500 milleseconds} using \textbf{XBee} transmitters.}
+	    \resumeItem{Worked in collaboration with the \textbf{CAN Testbench team}, which gathered the performance and analytical data from the motorcycle, as we successfully sent and recieved information through \textbf{XCTU}.}
 %             \resumeItem{Currently \textbf{implementing} a Dashboard feature that would take in \textbf{lean angle} data and display }
           \resumeItemListEnd
       
 	%---------------- Snake Game -----------------------
-      \resumeProjectHeading
-        {\textbf{Snake Game}}{}
-          \resumeItemListStart
-            \resumeItem{Recreated the infamous game using Carnegie Mellon's \textbf{graphics-based Python} learning website: `CS Academy.' }
-            \resumeItem{Achieved \textbf{second place} for the DE Programming Unit 10 `Creative Task' May 2022 competition and was featured on Carnegie Mellon's `CMU CS Academy' YouTube channel.}
-          \resumeItemListEnd
-
-	%------------------- CS 2114 Group Project -------------------------
-	\resumeProjectHeading
-        {\textbf{Influencer Data Visualization}}{}
-          \resumeItemListStart
-            \resumeItem{Delegated roles for and coordinated the creation of an algorithm that parsed, visualized, and sorted engagement rates of internet personalities in a monthly/quarterly fashion as part of a collaborative \textbf{Java} project.}
-          \resumeItemListEnd
+%      \resumeProjectHeading
+%        {\textbf{Snake Game}}{}
+%          \resumeItemListStart
+%            \resumeItem{Recreated the infamous game using Carnegie Mellon's \textbf{graphics-based Python} learning website: `CS Academy.' }
+%            \resumeItem{Achieved \textbf{second place} for the DE Programming Unit 10 `Creative Task' May 2022 competition and was featured on Carnegie Mellon's `CMU CS Academy' YouTube channel.}
+%          \resumeItemListEnd
+%
+%	%------------------- CS 2114 Group Project -------------------------
+%	\resumeProjectHeading
+%        {\textbf{Influencer Data Visualization}}{}
+%          \resumeItemListStart
+%            \resumeItem{Delegated roles for and coordinated the creation of an algorithm that parsed, visualized, and sorted engagement rates of internet personalities in a monthly/quarterly fashion as part of a collaborative \textbf{Java} project.}
+%          \resumeItemListEnd
 
 	%---------------- Solitaire -----------------------
 %      \resumeProjectHeading
@@ -215,6 +214,23 @@
     
   \resumeSubHeadingListEnd
 
+%----------- Research -----------
+\section{Research}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+	
+	%---------------------- VizPI ------------------------
+	\resumeSubheading
+		{VizPI}{Virginia Tech}
+		{Contributor}{\textbf{Jan 2024 \textbf{--} Present}}
+
+	  \resumeItemListStart
+		\resumeItem{VizPI is an \textbf{interactive web tool} focused on providing instructors with a way to monitor, assess, and conduct real-time programming exercises in one, simple and effective, environment.}
+		\resumeItem{Refactored front-end database calls from \textbf{Firebase} to \textbf{PostreSQL} through \textbf{Nodejs} and secure fetch requests using \textbf{Axios}.}
+	 \resumeItemListEnd
+	
+\resumeSubHeadingListEnd
+     
 
 %----------- Work Experience -----------
 
@@ -254,7 +270,7 @@
        {BOLT}{Virginia Tech}
        {Project Contributor}{\textbf{Oct 2023 \textbf{--} Present}}
         \resumeItemListStart
-            \resumeItem{Club Description: A design team of VT engineers spearheading the construction of a fully electric motorcycle used for competitions, hands-on experience working with a team, and collaborating on interdisciplinary projects within BOLT.}
+            \resumeItem{Club Description: A design team of VT Engineers spearheading the construction of a fully electric motorcycle used for competitions, hands-on experience working with a team, and collaborating on interdisciplinary projects within BOLT.}
 	     \resumeItem{Role: Remodeled the controls design and established data collection and dispersion algorithms for the electric motorcycle.}
         \resumeItemListEnd
 
