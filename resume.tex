@@ -61,15 +61,15 @@
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#3} & \textit{\textbf{\small #4}} \\
     \end{tabular*}\vspace{-7pt}
 }
 
 
 \newcommand{\resumeSubSubheading}[2]{
     \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -85,7 +85,7 @@
 \newcommand{\resumeProjectHeading}[2]{
     \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
+      \textbf{#1} & \textit{\textbf{\small #2}} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -144,6 +144,7 @@
         \resumeItemListStart
 	   \resumeItem{\textbf{Organizations:} BOLT, Russian-Speaking Student Association, SASE, CS Careers, MLH, VioletHacks}
              \resumeItem{\textbf{Relevant coursework:}  Data Structures and Algorithms, Computer Organization, Multivariable Calculus, Discrete Math, Applied Combonitorics and Graph Theory}
+	\resumeItem{\textbf{Awards:}  2024-2025 American Bureau of Shipping Scholarship recipient, Dean's List (Spring 2024 (with distinction), Fall 2023), VTHacks and HackViolet Winner}
          \resumeItemListEnd
 
 %----------- SKILLS -----------
@@ -152,26 +153,25 @@
   \vspace{2pt}
   \resumeSubHeadingListStart
     \small{\item{
-        \textbf{Languages:}{ Python, Java, JavaScript, CSS 3, HTML 5, LaTeX, C/C++, SQL, Bash, MatLab } \\ \vspace{3pt}
+        \textbf{Programming Languages:}{ Python, Java, TypeScript, JavaScript, CSS 3, HTML 5, Bash, SQL, LaTeX, C/C++(familiar) } \\ \vspace{3pt}
                 
-        \textbf{Tech Stacks:}{ Docker, React, React Native, Tailwind CSS, Expo Go, Git, Axios, Express, Bootstrap, NodeJS, PostgreSQL } \\ \vspace{3pt}
+        \textbf{Tech Stacks:}{ Docker, Flask, React, React Native, Tailwind CSS, Expo Go, Git, Axios, Express Framework, NodeJS, PostgreSQL, mySQL } \\ \vspace{3pt}
     }}
   \resumeSubHeadingListEnd
 
-%----------- Research -----------
-\section{Research}
+%----------- Work Experience -----------
+\section{Work Experience}
     \vspace{3pt}
     \resumeSubHeadingListStart
 
 	%---------------------- ClassX ------------------------
 	\resumeSubheading
-		{ClassX}{George Mason University}
-		{REU Intern}{\textbf{June 2024 \textbf{--} Present}}
+		{National Science Foundation}{George Mason University}
+		{Software Engineering Intern}{June 2024 \textbf{--} Present}
 	\resumeItemListStart
-		\resumeItem{Back-end and DevOps intern for ClassX: an \textbf{AI-based}, semi-auto labeling tool funded by \textbf{NASA, NSF. and GMU} with services in the Arctic and Heliophysics (solar) research fields.}
-		\resumeItem{Optimized \textbf{Docker} image size of web app and environment with a \textbf{57\%} size reduction and a \textbf{60\%} decrease in build time through \textbf{multi-stage building} and \textbf{volume mounting}.} 
-		\resumeItem{Constructed a RESTful image and mask Python export script from the tool and offers support for exporting in mutiple file types like \textbf{8 and 16 bit PNG, HDF5, JPG, COCO, etc.} in less than \textbf{4 seconds} for over \textbf{100 cropped images}.}
-		\resumeItem{Presented at the \textbf{2024 Spatiotemporal International Symposium} about the refactoring and modularization of the previous iteration of the project using \textbf{Flask}, a lightweight Python web framework.}
+		\resumeItem{Presented ClassX: the Machine Learning based, \textbf{NASA, NSF, and GMU} sponsored, project at the \textbf{2024 Spatiotemporal International Symposium}.}
+		\resumeItem{Optimized \textbf{Docker} image size of web app and environment with a \textbf{57\%} size reduction and a \textbf{60\%} decrease in build time through \textbf{multi-stage building} and \textbf{volume mounting} using Agile methodology.} 
+		\resumeItem{Constructed a RESTful image and mask Python export script from the tool and offers support for exporting in multiple file types like \textbf{8 and 16 bit PNG, HDF5, JPG, COCO, etc.} in less than \textbf{4 seconds} for over \textbf{100 cropped images}.}
 	 \resumeItemListEnd
 %    \small{\item{
 %        \textit{Tech Used: Docker, Python, Flask, mySQL, HTML, CSS NumPY, OpenCV } \\ \vspace{3pt}
@@ -179,12 +179,12 @@
 	
 	%---------------------- VizPI ------------------------
 	\resumeSubheading
-		{Prime Lab: VizPI}{Virginia Tech}
-		{Contributor}{\textbf{Jan 2024 \textbf{--} May 2024}}
+		{Prime Lab}{Virginia Tech}
+		{Software Engineering Intern}{Jan 2024 \textbf{--} May 2024}
 
 	  \resumeItemListStart
-		\resumeItem{Worked directly with Virginia Tech professors, researchers, and Computer Science Department faculty members to provide an interactive Java and Python programming learning tool utilizing AI for over \textbf{200} undergraduate students.}
-		\resumeItem{Overhauled \textbf{REST API} calls to ensure seamless backend integration, migrated data handling from Firebase to \textbf{PostgreSQL} via secure fetch requests using \textbf{Axios and Express}, contributing to robust application development.}
+		\resumeItem{Provided an interactive Java and Python programming learning tool, VizPI, utilizing AI for over \textbf{200} undergraduate students.}
+		\resumeItem{Redesigned \textbf{REST API} calls to ensure seamless backend integration, migrated data handling from Firebase to \textbf{PostgreSQL} database via secure fetch requests using \textbf{Axios and Express}, contributing to robust application development.}
 		\resumeItem{Remodeled the UI/UX of the webpage's create-a-session prompt, list of previous sessions, and student error visualization using the \textbf{MUI} and \textbf{React} libraries to ensure a sleek yet informative design on the instuctor end of the product.}
 	 \resumeItemListEnd
 	
@@ -195,18 +195,26 @@
 \section{Projects}
     \vspace{3pt}
     \resumeSubHeadingListStart
-	
-	%---------------------- HackViolet ------------------------
+
+	%---------------------- VTHacks 2024 ------------------------
 	\resumeProjectHeading
-	{\textbf{HackViolet 2024 WINNER: Baby Blues}}{}
+	{\textbf{VTHacks 2024 WINNER: VisionLink}}{September 2024}
 	  \resumeItemListStart
-		\resumeItem{Constructed the `Best Hack (app) to Support Women' that implements \textbf{Hume AI API} to quantify emotions based on speech (on a confidence scale of \textbf{0.0 - 1.0}) in tandem with \textbf{Spotify's API} to recommend playlists as part of music therapy for women suffering postpartum depression.}
+		\resumeItem{Engineered the 'Best Diversity, Inclusion, and Equity Hack' via an AI-implemented, object-detecting visual aid inspired by the \textbf{over 400 visually impared} students at Virginia Tech.}
+		\resumeItem{Implemented haptic feedback that activates based on proximity parameters: \textbf{1.5 meters, 1 meter, and 0.5 meters} and increases in intensity as the user gets closer to objects, people, hazards, etc.}
+	 \resumeItemListEnd
+	
+	%---------------------- HackViolet 2024 ------------------------
+	\resumeProjectHeading
+	{\textbf{HackViolet 2024 WINNER: Baby Blues}}{February 2024}
+	  \resumeItemListStart
+		\resumeItem{Constructed the `Best Hack to Support Women' that implements \textbf{Hume AI API} to quantify emotions based on speech (on a confidence scale of \textbf{0.0 - 1.0}) in tandem with \textbf{Spotify's API} to recommend playlists as part of music therapy for women suffering postpartum depression.}
 		\resumeItem{Coordinated the team and was the lead designer for the front-end using \textbf{React Native} and \textbf{Expo Go} to create a minimalistic \textbf{UI/UX} with playable embedded Spotify playlists and graphs of the most common emotion expressed throughout the day.}
 	 \resumeItemListEnd
 
 	%---------------------- Burg Website ------------------------
 	\resumeProjectHeading
-	{\textbf{Project Torch: The Burg Website}}{}
+	{\textbf{Project Torch: The Burg Website}}{April 2024 \textbf{--} June 2024}
 	  \resumeItemListStart
 		\resumeItem{Built a responsive \textbf{Vite + React} website for a local business in Blacksburg for free in a team of other Virginia Tech computer science students.}
 		\resumeItem{Created the home page and navigation bar using the \textbf{Bootstrap and MUI} React libraries with \textbf{Tailwind CSS} for extra customization and creating a unique visual design.}
@@ -221,13 +229,13 @@
 %	 \resumeItemListEnd
 
 	%---------------------- BOLT ------------------------
-	\resumeProjectHeading
-         {\textbf{BOLT: Wireless Communications}}{}
-          \resumeItemListStart
-	    \resumeItem{Established the functionality to wirelessly transfer \textbf{64 - 128 bytes} of encrypted motorcycle data every \textbf{500 milleseconds} using \textbf{XBee} transmitters.}
-	    \resumeItem{Worked in collaboration with the \textbf{CAN Testbench team}, which gathered the performance and analytical data from the motorcycle, as we successfully sent and recieved information through \textbf{XCTU}.}
+%	\resumeProjectHeading
+%         {\textbf{BOLT: Wireless Communications}}{September 2023 \textbf{--} February 2024}
+%          \resumeItemListStart
+%	    \resumeItem{Established the functionality to wirelessly transfer \textbf{64 - 128 bytes} of encrypted motorcycle data every \textbf{500 milleseconds} using XBee transmitters within over \textbf{300 meters}.}
+%	    \resumeItem{Collaborated with the \textbf{CAN Testbench team}, which gathered the performance and analytical data from the motorcycle, and wirelessly transmitted that data using \textbf{XCTU} software.}
 %             \resumeItem{Currently \textbf{implementing} a Dashboard feature that would take in \textbf{lean angle} data and display }
-          \resumeItemListEnd
+%          \resumeItemListEnd
       
 	%---------------- Snake Game -----------------------
 %      \resumeProjectHeading
@@ -289,31 +297,23 @@
   \vspace{3pt}
   \resumeSubHeadingListStart
 
+	%------------------------- Costar --------------------------------
+	\resumeProjectHeading
+	       {\textbf{CoStar College Program} $|$ {\normalfont Richmond, VA}}{March 2024}
+	        \resumeItemListStart
+	            \resumeItem{Shadowed \textbf{Owen Richards}, a software developer at CoStar's \textbf{Richmond Headquarters}, and discussed some technologies used like \textbf{CI/CD Pipeling and SQL} at Costar.}
+	     \resumeItem{Attended a panel of keynote speakers like \textbf{Micheal Morrison}, Senior Director of Software Development, and junior \& senior software developers.}
+	        \resumeItemListEnd
+
 	%------------------------- VT BOLT --------------------------------
-	\resumeSubheading
-       {BOLT}{Virginia Tech}
-       {Software Developer}{\textbf{Oct 2023 \textbf{--} Present}}
-        \resumeItemListStart
-            \resumeItem{Club Description: A design team of VT Engineers spearheading the construction of a fully electric motorcycle used for competitions, hands-on experience working with a team, and collaborating on interdisciplinary projects within BOLT.}
-	     \resumeItem{Role: Remodeled the controls design and established data collection and dispersion algorithms for the electric motorcycle.}
-        \resumeItemListEnd
-%
-%	%---------------------------- RSSA -------------------------
 %	\resumeSubheading
-%      {Russian Speaking Student Association}{Virgnia Tech}
-%      {Member}{\textbf{Sep 2023 \textbf{--} Present}}
-%        \resumeItemListStart
-%            \resumeItem{Promoted Russian and Russian-speaking cultures and traditions in Virgnia Tech and connected with peers through our common language and similar backgrounds.}
-%	     \resumeItem{Personally spread Tajik culture through food, presentations of the beautiful landscape, and anecedotes from my time there, as the sole representative of Tajikistan.}
-%        \resumeItemListEnd
-%	
-%	%---------------------------- SASE -------------------------
-%	\resumeSubheading
-%      {Society of Asian Scientists and Engineers}{Virginia Tech}
-%      {Member}{\textbf{Jan 2024 \textbf{--} Present}}
-%        \resumeItemListStart
-%	  \resumeItem{Promoted inclusion and diversity within the university and the club itself along with, specifically, other Central Asian members.}
-%        \resumeItemListEnd
+%	       {BOLT}{Virginia Tech}
+%	       {Software Developer}{\textbf{Oct 2023 \textbf{--} Present}}
+%	        \resumeItemListStart
+%	            \resumeItem{Club Description: A design team of VT Engineers spearheading the construction of a fully electric motorcycle used for competitions, hands-on experience working with a team, and collaborating on interdisciplinary projects within BOLT.}
+%	     \resumeItem{Role: Remodeled the controls design and established data collection and dispersion algorithms for the electric motorcycle.}
+%	        \resumeItemListEnd
+
 \resumeSubHeadingListEnd
 	
 %------------- Awards ----------------------------
